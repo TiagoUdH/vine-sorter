@@ -58,7 +58,7 @@ def main():
         page_icon="🍇"
     )
 
-    st.write("Classificador de folhas de videira 🍇")
+    st.write("# Classificador de folhas de videira 🍇")
 
     interpreter = loading_model()
     image = loading_image()
