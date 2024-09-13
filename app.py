@@ -42,7 +42,7 @@ def prevision(interpreter, image):
     interpreter.invoke()
 
     output_data = interpreter.get_tensor(output_details[0]['index'])
-    classes = ['LeafBlight', 'HealthyGrapes', 'BlackRot', 'BlackMeasles']
+    classes = ['BlackMeasles', 'BlackRot', 'HealthyGrapes', 'LeafBlight']
 
     df = pd.DataFrame()
     df["classes"] = classes
